@@ -1,0 +1,150 @@
+*{
+margin:0px;
+padding:0;
+}
+#wrapper
+{
+width:100%;
+position:fixed;
+top:0px;
+left:0px;
+max-height:800px;
+}
+#header{
+background-color:#401229;
+width:100%;
+height:150px;
+position:fixed;
+top:0px;
+left:0px;
+color:white;
+-webkit-filter: opacity(1);
+}
+
+
+#header h1{
+font-size:90px;
+word-spacing:4px;
+letter-spacing:7px;
+float:right;
+display:block;
+position:relative;
+bottom:-40px;
+right:150px;
+}
+/*#header h2 a{
+font-size:30px;
+float:right;
+display:block;
+color:white;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+text-decoration:none;
+background-color:red;
+padding:10px;
+margin-right:10px;
+position:relative;
+top:-70px;
+
+}
+*/
+#header h2 a {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float:right;
+margin-right:10px;
+position:relative;
+top:-70px;
+}
+
+#header h2 a:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+#header h2 a:hover{
+color:yellow;
+background-color:black;
+}
+#header .profile_pic
+{
+width:200px;
+height:200px;
+background-color:white;
+border:7px double black;
+border-radius:200px;
+position:relative;
+bottom:-30px;
+left:50px;
+}
+.profile_pic img{
+border-radius:200px;
+
+-webkit-filter: opacity(1);
+}
+.profile_pic img:hover{
+border-radius:200px;
+-webkit-filter: opacity(1);
+}
+#content{
+height:500px;
+width:100%;
+position:relative;
+bottom:-150px;
+z-index:-1;
+}
+#content ul{
+list-style:none;
+}
+#content ul li{
+float:left;
+}
+#thumb{
+width:200px;
+height:230px;
+border:10px groove black;
+background-color:white;
+}
+#thumb.left{
+float:left;
+}
+#thumb.right{
+float:right;
+display:block;
+}
+.wid{
+position:relative;
+bottom:-240px;
+left:-228px;
+}
+.mh
+{
+position:relative;
+bottom:-277px;
+right:-228px;
+}
+
+.greeting_box{
+border:7px double gray;
+max-height:300px;
+max-width:700px;
+margin:auto;
+margin-top:100px;
+color:white;
+}
+.greeting_box h1{
+margin:20px;
+display:block;
+}
